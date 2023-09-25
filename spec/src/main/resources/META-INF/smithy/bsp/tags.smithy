@@ -17,6 +17,9 @@ apply BuildTarget @docsPriority(10)
 
 apply BuildTargetIdentifier @tags(["basic"])
 apply BuildTargetIdentifier @docsPriority(9)
+apply BuildTargetIdentifier @tags["foo"]
+apply BuildTargetIdentifier @tags(["bar"])
+
 
 apply TaskId @tags(["basic"])
 apply TaskId @docsPriority(8)
